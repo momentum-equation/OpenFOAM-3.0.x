@@ -6,7 +6,7 @@ targetType=libso
 . $WM_PROJECT_DIR/wmake/scripts/AllwmakeParseArguments
 set -x
 
-wmake $targetType scotchDecomp
+#wmake $targetType scotchDecomp
 wmake $targetType ptscotchDecomp
 wmake $targetType metisDecomp
 wmake $targetType MGridGen

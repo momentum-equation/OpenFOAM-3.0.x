@@ -78,7 +78,7 @@ export WM_PRECISION_OPTION=DP
 
 #- Label size:
 #    WM_LABEL_SIZE = 32 | 64
-export WM_LABEL_SIZE=32
+export WM_LABEL_SIZE=64
 
 #- Optimised, debug, profiling:
 #    WM_COMPILE_OPTION = Opt | Debug | Prof
@@ -254,3 +254,5 @@ unset cleaned foamClean foamInstall foamOldDirs
 unset _foamSource _foamEval
 
 # ----------------------------------------------------------------- end-of-file
+export WM_CC='gcc-5'
+export WM_CXX='g++-5'

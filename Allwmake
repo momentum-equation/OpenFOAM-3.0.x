@@ -23,12 +23,12 @@ wmakeCheckPwd "$WM_PROJECT_DIR" || {
 (cd wmake/src && make)
 
 # Compile ThirdParty libraries and applications
-if [ -d "$WM_THIRD_PARTY_DIR" ]
-then
-    $WM_THIRD_PARTY_DIR/Allwmake
-else
-    echo "Allwmake: no ThirdParty directory found - skipping"
-fi
+#if [ -d "$WM_THIRD_PARTY_DIR" ]
+#then
+#    $WM_THIRD_PARTY_DIR/Allwmake
+#else
+#    echo "Allwmake: no ThirdParty directory found - skipping"
+#fi
 
 # Compile OpenFOAM libraries and applications
 src/Allwmake $targetType $*
