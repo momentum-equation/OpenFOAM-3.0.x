@@ -6,6 +6,7 @@ targetType=libso
 . $WM_PROJECT_DIR/wmake/scripts/AllwmakeParseArguments
 
 # get SCOTCH_VERSION, SCOTCH_ARCH_PATH
+<<<<<<< HEAD
 #if settings=`$WM_PROJECT_DIR/bin/foamEtcFile config/scotch.sh`
 #then
 #    . $settings
@@ -15,6 +16,17 @@ targetType=libso
 #    echo "Error: no config/scotch.sh settings"
 #    echo
 #fi
+=======
+# if settings=`$WM_PROJECT_DIR/bin/foamEtcFile config/scotch.sh`
+# then
+#     . $settings
+#     echo "using SCOTCH_ARCH_PATH=$SCOTCH_ARCH_PATH"
+# else
+#     echo
+#     echo "Error: no config/scotch.sh settings"
+#     echo
+# fi
+>>>>>>> master
 
 
 #

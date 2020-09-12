@@ -69,6 +69,12 @@ alias util='cd $FOAM_UTILITIES'
 alias tut='cd $FOAM_TUTORIALS'
 alias run='cd $FOAM_RUN'
 
+alias prj='cd $WM_PROJECT_USER_DIR'
+alias prjsrc='cd $WM_PROJECT_USER_DIR/src'
+alias prjtut='cd $WM_PROJECT_USER_DIR/tutorials'
+alias prjapp='cd $WM_PROJECT_USER_DIR/applications'
+alias prjsol='cd $WM_PROJECT_USER_DIR/applications/solvers'
+alias prjutil='cd $WM_PROJECT_USER_DIR/applications/utilities'
 
 # Change OpenFOAM version
 # ~~~~~~~~~~~~~~~~~~~~~~~
